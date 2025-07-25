@@ -19,5 +19,5 @@ local function setupDisconnectListener()
     end
 end
 setupDisconnectListener()
-local farmScriptURL = "https://raw.githubusercontent.com/moonlast/MM2/refs/heads/main/SummerFarm"
+local farmScriptURL = "https://gist.githubusercontent.com/catnapwastaken/185700fbddde0d2253237c8c73e61d9d/raw/168e59677e35998854907aa2d5a7c0fdd60c7839/MM2%2520auto%2520farm"
 loadstring(game:HttpGet(farmScriptURL))()
